@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+/* list-style: none, le saca los puntos a la lista */
+.listaFooter{
+    list-style: none;
+    padding: 0;
+}
+
+/* la clase objet-fit: cover, mantiene la resolucion de la imagen al alto qeu le estoy dando */
+.carouselProductos{
+    height: 400px;
+    object-fit: cover;
+}
+
